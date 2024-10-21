@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Outfit", sans-serif;
+    background-color: #F3E5D7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+li{
+    list-style: none;
+}
+
+.container{
+   background-color: #fff;
+   border-radius: 24px;
+   padding: 40px 40px;
+   max-width: 776px;
+}
+header{
+    .container{
+        .head-img{
+            img{
+                margin-bottom:40px;
+            }
+        }
+        .head-text{
+            h1{
+                font-family: "Young Serif",sans-serif; 
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 100%;
+                color: #312E2C;
+                margin-bottom: 24px;
+            }
+            p{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: #5F564D;
+                margin-bottom: 32px;
+            }
+        }
+        .head-preparation{
+            background-color:#FFF7FB;
+            border-radius: 12px;
+            padding: 28px;
+            max-width: 656px;
+            margin-bottom: 32px;
+            h2{
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 100%;
+                color:#7A284E;
+                margin-bottom: 16px;
+            }
+            .time{
+                display: flex;
+                gap: 16px;
+                padding-left: 15px;
+                .circle{
+                    border-radius: 100%;
+                    color: #7A284E;
+                    height: 4px;
+                    width: 4px;
+                }
+                span{
+                    display: flex;
+                    gap:8px;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #5F564D;
+                }
+                p{
+                    font-weight: 400;
+                }
+            }
+        }
+        .ingredints-content{
+            h3{
+                font-family: "Young Serif", sans-serif;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 100%;
+                color: #854632;
+                margin-bottom:24px ;
+            }
+            .ingredints-text{
+                display: flex;
+                margin-bottom: 10px;
+                .text{
+                    .circle2{
+                        display: flex;
+                        align-items: center;
+                        gap: 28px;
+                        margin-bottom: 8px;
+                        p{
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 150%;
+                            color: #5F564D;
+                        }
+                    }
+                }
+                .text1{
+                    p{
+
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            .lines{
+                border: 1px solid #E3DDD7;
+                width: 690px;
+                // width: 100%;
+            }
+        }
+        .instructions-content{
+            h3{
+                font-family: "Young Serif", sans-serif;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 100%;
+                color: #854632;
+                margin-bottom: 24px;
+            }
+            .number-text{
+                display: flex;
+                gap: 16px;
+                margin-bottom: 24px;
+                .one{
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #5f564d;
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #5F564D;
+                    margin-bottom: 8px;
+                    span{
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #5F564D;
+                    }
+                }
+            }
+            .lines{
+                border: 1px solid #E3DDD7;
+                width: 690px;
+                margin-bottom: 32px;
+                // width: 100%;
+            }
+        }
+        .nutrition-content{
+            h4{
+                font-family:  "Young Serif", sans-serif;;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 100%;
+                color: #854632;
+                margin-bottom: 24px;
+            }
+            p{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: #5F564D;
+                margin-bottom: 24px;
+            }
+            .colors{
+                display: flex;
+                align-items: center;
+                max-width: 288px;
+                width: 100%;
+                gap: 30px;
+                padding-left: 32px;
+                justify-content: space-between;
+                margin-bottom: 12px;
+                h5{
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #5f564d;
+                }
+                span{
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #5f564d;
+                    max-width: 288px;
+                }
+            }
+            .lines{
+                border: 1px solid #E3DDD7;
+                width: 690px;
+                margin-bottom: 12px;
+            }
+        }
+    }
+}
+
+
+@media (max-width:600px) {
+    header{
+        .container{
+            padding-top: 0;
+            padding-bottom: 40px;
+            max-width: 311px;
+            width: 100%;
+            .head-img{
+                img{
+                    margin-bottom:40px;
+                    width: 100%;
+                }
+            }
+            .head-text{
+                max-width: 311px;
+                margin: 0 auto;
+                padding: 0 32px;
+                h1{
+                    font-weight: 400;
+                    font-size: 36px;
+                    line-height: 100%;
+                }
+                p{
+                    // max-width: 311px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #5F564D;
+                    margin-bottom: 32px;
+                }
+            }
+            .head-preparation{
+                padding: 24px;
+                max-width: 263px;
+                margin: 0 auto 32px;
+                .time{
+                    display: flex;
+                    gap: 16px;
+                    padding-left: 0px;
+                    .circle{
+                        border-radius: 100%;
+                        color: #7A284E;
+                        height: 4px;
+                        width: 4px;
+                    }
+                }
+            }
+            .ingredints-content{
+                padding: 0 32px;
+                .ingredints-text{
+                    display: flex;
+                    margin-bottom: 10px;
+                    .text{
+                        .circle2{
+                            display: flex;
+                            align-items: center;
+                            gap: 28px;
+                            max-width: 311px;
+                            margin: 0 0 8px ;
+                            p{
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 150%;
+                                color: #5F564D;
+                            }
+                        }
+                    }
+                    .text1{
+                        p{
+                            margin-bottom: 0;
+                            max-width: 311px;
+                        }
+                    }
+                }
+                .lines{
+                    border: 1px solid #E3DDD7;
+                    max-width: 300px;
+                    // width: 100%;
+                }
+            }
+            .instructions-content{
+                padding: 0;
+                
+                .number-text{
+                    display: flex;
+                    gap: 16px;
+                    margin-bottom: 24px;
+                    .one{
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #5f564d;
+                    }
+                    
+                }
+                .lines{
+                    border: 1px solid #E3DDD7;
+                    max-width: 250px;
+                }
+            }
+            .nutrition-content{
+                padding: 0 32px;
+                .colors{
+                    display: flex;
+                    align-items: center;
+                    max-width: 288px;
+                    
+                }
+                .lines{
+                    max-width: 250px;
+                }
+            }
+        }
+    }
+}

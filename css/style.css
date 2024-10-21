@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #F3E5D7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 40px 40px;
+  max-width: 776px;
+}
+
+header .container .head-img img {
+  margin-bottom: 40px;
+}
+header .container .head-text h1 {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+  color: #312E2C;
+  margin-bottom: 24px;
+}
+header .container .head-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5F564D;
+  margin-bottom: 32px;
+}
+header .container .head-preparation {
+  background-color: #FFF7FB;
+  border-radius: 12px;
+  padding: 28px;
+  max-width: 656px;
+  margin-bottom: 32px;
+}
+header .container .head-preparation h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #7A284E;
+  margin-bottom: 16px;
+}
+header .container .head-preparation .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  padding-left: 15px;
+}
+header .container .head-preparation .time .circle {
+  border-radius: 100%;
+  color: #7A284E;
+  height: 4px;
+  width: 4px;
+}
+header .container .head-preparation .time span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5F564D;
+}
+header .container .head-preparation .time p {
+  font-weight: 400;
+}
+header .container .ingredints-content h3 {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 100%;
+  color: #854632;
+  margin-bottom: 24px;
+}
+header .container .ingredints-content .ingredints-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+header .container .ingredints-content .ingredints-text .text .circle2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 28px;
+  margin-bottom: 8px;
+}
+header .container .ingredints-content .ingredints-text .text .circle2 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5F564D;
+}
+header .container .ingredints-content .ingredints-text .text1 p {
+  margin-bottom: 0;
+}
+header .container .ingredints-content .lines {
+  border: 1px solid #E3DDD7;
+  width: 690px;
+}
+header .container .instructions-content h3 {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 100%;
+  color: #854632;
+  margin-bottom: 24px;
+}
+header .container .instructions-content .number-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+header .container .instructions-content .number-text .one {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5f564d;
+}
+header .container .instructions-content .number-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5F564D;
+  margin-bottom: 8px;
+}
+header .container .instructions-content .number-text p span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5F564D;
+}
+header .container .instructions-content .lines {
+  border: 1px solid #E3DDD7;
+  width: 690px;
+  margin-bottom: 32px;
+}
+header .container .nutrition-content h4 {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 100%;
+  color: #854632;
+  margin-bottom: 24px;
+}
+header .container .nutrition-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5F564D;
+  margin-bottom: 24px;
+}
+header .container .nutrition-content .colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 288px;
+  width: 100%;
+  gap: 30px;
+  padding-left: 32px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 12px;
+}
+header .container .nutrition-content .colors h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5f564d;
+}
+header .container .nutrition-content .colors span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5f564d;
+  max-width: 288px;
+}
+header .container .nutrition-content .lines {
+  border: 1px solid #E3DDD7;
+  width: 690px;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 600px) {
+  header .container {
+    padding-top: 0;
+    padding-bottom: 40px;
+    max-width: 311px;
+    width: 100%;
+  }
+  header .container .head-img img {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  header .container .head-text {
+    max-width: 311px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+  header .container .head-text h1 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+  }
+  header .container .head-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5F564D;
+    margin-bottom: 32px;
+  }
+  header .container .head-preparation {
+    padding: 24px;
+    max-width: 263px;
+    margin: 0 auto 32px;
+  }
+  header .container .head-preparation .time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 16px;
+    padding-left: 0px;
+  }
+  header .container .head-preparation .time .circle {
+    border-radius: 100%;
+    color: #7A284E;
+    height: 4px;
+    width: 4px;
+  }
+  header .container .ingredints-content {
+    padding: 0 32px;
+  }
+  header .container .ingredints-content .ingredints-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  header .container .ingredints-content .ingredints-text .text .circle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 28px;
+    max-width: 311px;
+    margin: 0 0 8px;
+  }
+  header .container .ingredints-content .ingredints-text .text .circle2 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5F564D;
+  }
+  header .container .ingredints-content .ingredints-text .text1 p {
+    margin-bottom: 0;
+    max-width: 311px;
+  }
+  header .container .ingredints-content .lines {
+    border: 1px solid #E3DDD7;
+    max-width: 300px;
+  }
+  header .container .instructions-content {
+    padding: 0;
+  }
+  header .container .instructions-content .number-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  header .container .instructions-content .number-text .one {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5f564d;
+  }
+  header .container .instructions-content .lines {
+    border: 1px solid #E3DDD7;
+    max-width: 250px;
+  }
+  header .container .nutrition-content {
+    padding: 0 32px;
+  }
+  header .container .nutrition-content .colors {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 288px;
+  }
+  header .container .nutrition-content .lines {
+    max-width: 250px;
+  }
+}
